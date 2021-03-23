@@ -1,0 +1,4 @@
+co/com/choucair/certification/projectnewuser/runners/RunnerTags.java
+ co.com.choucair.certification.projectnewuser.runners.RunnerTags
+co/com/choucair/certification/projectnewuser/stepdefinitions/SignUpUtestStepDefinitions.java
+ co.com.choucair.certification.projectnewuser.stepdefinitions.SignUpUtestStepDefinitions
