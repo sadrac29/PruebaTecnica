@@ -1,6 +1,0 @@
-co/com/choucair/certification/projectnewuser/tasks/OpenUp.java
- co.com.choucair.certification.projectnewuser.tasks.OpenUp
-co/com/choucair/certification/projectnewuser/tasks/JoinToday.java
- co.com.choucair.certification.projectnewuser.tasks.JoinToday
-co/com/choucair/certification/projectnewuser/userinterface/NewUserUtestPage.java
- co.com.choucair.certification.projectnewuser.userinterface.NewUserUtestPage
