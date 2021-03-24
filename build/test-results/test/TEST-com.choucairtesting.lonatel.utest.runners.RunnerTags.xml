@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.choucairtesting.lonatel.utest.runners.RunnerTags" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="panvsubula3015" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/utest.feature:5 ?[0m# Create an account in utest
+
+1 Scenarios (?[31m1 failed?[0m)
+3 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m1 passed?[0m)
+0m36.384s
+
+net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: element not interactable
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'panvsubula3015', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-67-generic', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.gAso96}, goog:chromeOptions: {debuggerAddress: localhost:46845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46a96fc84ae6c8964a000613f24d3cd2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:1069)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:684)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget.performAs(EnterValueIntoTarget.java:18)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget$$EnhancerByCGLIB$$4e987eb1.CGLIB$performAs$0(<generated>)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget$$EnhancerByCGLIB$$4e987eb1$$FastClassByCGLIB$$da8429ac.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget$$EnhancerByCGLIB$$4e987eb1.performAs(<generated>)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at com.choucairtesting.lonatel.utest.tasks.CreateSecion.performAs(CreateSecion.java:51)
+	at com.choucairtesting.lonatel.utest.tasks.CreateSecion$$EnhancerByCGLIB$$a66f7b04.CGLIB$performAs$0(<generated>)
+	at com.choucairtesting.lonatel.utest.tasks.CreateSecion$$EnhancerByCGLIB$$a66f7b04$$FastClassByCGLIB$$c70a275a.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:361)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.choucairtesting.lonatel.utest.tasks.CreateSecion$$EnhancerByCGLIB$$a66f7b04.performAs(<generated>)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at com.choucairtesting.lonatel.utest.stepdefinitions.UtestStepDefinitions.heFillsTheFormWithTheData(UtestStepDefinitions.java:33)
+	at ✽.he fills the form with the data(src/test/resources/features/utest.feature:7)
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.serenitybdd.core.Serenity - ?[36m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+?[0m
+[Test worker] INFO net.serenitybdd.core.Serenity - Test Suite Started: Utest
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Create an account in utest
+-------------------------------------------------------------------(utest;create-an-account-in-utest)
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Create an account in utest
+---------------------------------------------------------------------
+[Test worker] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Perform as: user
+[Test worker] ERROR net.serenitybdd.core.Serenity - The following error occurred: element not interactable
+]]></system-err>
+</testsuite>
